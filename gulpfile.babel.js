@@ -67,6 +67,7 @@ gulp.task("scss", () => gulp.src(`${path.scss}**/*.scss`)
 );
 
 gulp.task("watch", () => {
+    gulp.watch([`${path.html}**/*.ejs`], ["template"]);
     gulp.watch([`${path.html}**/*.html`], ["prettify"]);
     gulp.watch([`${path.scss}**/*.scss`], ["scss"]);
     gulp.watch([`${path.img}**/*.+(jpg|png|gif|svg)`], ["imagemin"]);
