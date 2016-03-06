@@ -1,0 +1,8 @@
+# Mac
+.DS_Store
+
+# Project
+built
+
+# node
+node_modules

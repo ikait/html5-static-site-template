@@ -1,0 +1,27 @@
+{
+  "name": "HTML5 Static Site Template",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "gulp",
+    "build": "gulp scss && gulp prettify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Taishi Ikai <m@ikai.tokyo>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.5.1",
+    "babel-preset-es2015": "^6.5.0",
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-cssnext": "^1.0.1",
+    "gulp-ejs": "^2.1.1",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-prettify": "^0.4.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}
